@@ -1,0 +1,93 @@
+---
+# Enchantments:
+# Ingore the values
+# - TYPE_ARMOR_PROTECTION = 0
+# - TYPE_ARMOR_FIRE_PROTECTION = 1;
+# - TYPE_ARMOR_FALL_PROTECTION = 2;
+# - TYPE_ARMOR_EXPLOSION_PROTECTION = 3;
+# - TYPE_ARMOR_PROJECTILE_PROTECTION = 4;
+# - TYPE_ARMOR_THORNS = 5;
+# - TYPE_WATER_BREATHING = 6;
+# - TYPE_WATER_SPEED = 7;
+# - TYPE_WATER_AFFINITY = 8;
+# - TYPE_WEAPON_SHARPNESS = 9;
+# - TYPE_WEAPON_SMITE = 10;
+# - TYPE_WEAPON_ARTHROPODS = 11;
+# - TYPE_WEAPON_KNOCKBACK = 12;
+# - TYPE_WEAPON_FIRE_ASPECT = 13;
+# - TYPE_WEAPON_LOOTING = 14;
+# - TYPE_MINING_EFFICIENCY = 15;
+# - TYPE_MINING_SILK_TOUCH = 16;
+# - TYPE_MINING_DURABILITY = 17;
+# - TYPE_MINING_FORTUNE = 18;
+# - TYPE_BOW_POWER = 19;
+# - TYPE_BOW_KNOCKBACK = 20;
+# - TYPE_BOW_FLAME = 21;
+# - TYPE_BOW_INFINITY = 22;
+# - TYPE_FISHING_FORTUNE = 23;
+# - TYPE_FISHING_LURE = 24;
+
+# Crate Types/Rarities:
+# - common
+# - uncommon
+# - legendary
+# - vote
+
+# Do not modify if you dont know what you're doing
+common-crate: []
+uncommon-crate: []
+legendary-crate: []
+vote-crate: []
+
+# Item formats:
+# customName, enchantmentId, enchantmentLevel are optional
+# IMPORTANT NOTICE: DO NOT ADD CUSTOM ENCHANTMENT IDS ON THE CRATE ITEMS
+# "id:damage:count:customName:enchantmentId:enchantmentLevel"
+common-items:
+- '345:0:1'
+- '347:0:1'
+- '440:2:1'
+- '262:0:1'
+- '261:0:1'
+- '260:0:1'
+- '297:0:1'
+- '54:0:1'
+- '339:101:1:Communist Title (Tap)'
+- '5:0:3'
+uncommon-items:
+- '283:0:1'
+- '1:0:5'
+- '282:0:1'
+- '346:0:1'
+- '436:0:1'
+- '413:0:1'
+- '315:0:1:DEFAULT:TYPE_ARMOR_PROTECTION:1'
+- '257:0:1'
+- '265:0:1'
+- '266:0:1'
+legendary-items:
+- '49:0:1'
+- '310:0:1:DEFAULT:TYPE_ARMOR_PROTECTION:3'
+- '311:0:1:DEFAULT:TYPE_ARMOR_PROTECTION:1'
+- '312:0:1:DEFAULT:TYPE_ARMOR_PROTECTION:2'
+- '313:0:1:DEFAULT:TYPE_ARMOR_PROTECTION:3'
+- '276:0:1:Wrath of the Athropods:DEFAULT:TYPE_WEAPON_SMITE:2'
+- '277:0:1:DEFAULT:TYPE_MINING_DURABILITY:2'
+- '278:0:1:DEFAULT:TYPE_MINING_DURABILITY:2'
+- '279:0:1:DEFAULT:TYPE_MINING_DURABILITY:2'
+- '7:0:1:I am DARTH ROCK!'
+- '322:1:1:Diamond Apple'
+vote-items:
+- '280:0:1:Something you used on your gf'
+- '20:0:1:Glass Saber'
+- '339:100:1:EvolvedVoter Title (Tap)'
+- '438:0:1:Teardrops of Leafy'
+- '322:0:1:Iron Apple'
+- '267:0:1'
+- '306:0:1'
+- '307:0:1'
+- '308:0:1'
+- '309:0:1'
+- '30:0:1'
+- '35:9:1'
+...

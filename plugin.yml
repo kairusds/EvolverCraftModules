@@ -1,0 +1,136 @@
+
+# 888    d8P           d8b                           8888888b.                   888       .d8888b.                    888                       
+# 888   d8P            Y8P                           888  "Y88b                  888      d88P  Y88b                   888                       
+# 888  d8P                                           888    888                  888      Y88b.                        888                       
+# 888d88K      8888b.  888 888d888 888  888 .d8888b  888    888  8888b.  888d888 888  888  "Y888b.    .d88b.   .d88b.  888  888  .d88b.  888d888 
+# 8888888b        "88b 888 888P"   888  888 88K      888    888     "88b 888P"   888 .88P     "Y88b. d8P  Y8b d8P  Y8b 888 .88P d8P  Y8b 888P"   
+# 888  Y88b   .d888888 888 888     888  888 "Y8888b. 888    888 .d888888 888     888888K        "888 88888888 88888888 888888K  88888888 888     
+# 888   Y88b  888  888 888 888     Y88b 888      X88 888  .d88P 888  888 888     888 "88b Y88b  d88P Y8b.     Y8b.     888 "88b Y8b.     888     
+# 888    Y88b "Y888888 888 888      "Y88888  88888P' 8888888P"  "Y888888 888     888  888  "Y8888P"   "Y8888   "Y8888  888  888  "Y8888  888                                                                                                                                               
+
+name: EvolvedCraftModules
+api: 2.0.0
+version: 1.0.0
+author: kairusds
+main: modules\Main
+
+commands:
+  expstats:
+    description: "Shows the statistics of your experience"
+    permission: ec.command.expstats
+  redeemexp:
+    description: "Redeems your exp into an experience bottle"
+    permission: ec.command.redeemexp
+  setspawn:
+    description: "Define the spawn area"
+    permission: ec.command.setspawn
+  setwarzone:
+    description: "Define the warzone area"
+    permission: ec.command.setwarzone
+  vote:
+    description: "Vote for the server & get rewards"
+    permission: ec.command.vote
+  fx:
+    description: "Use particle fx"
+    permission: ec.command.fx
+  checkbounty:
+    description: "Check if a player has a bounty"
+    permission: ec.command.checkbounty
+  addbounty:
+    description: "Add bounties on players"
+    pemission: ec.command.addbounty
+  backup:
+    description: "Backup worlds"
+    permission: ec.command.backup
+  restore:
+    description: "Restore worlds"
+    permission: ec.command.restore
+  ride:
+    description: "Ride other players"
+    permission: ec.command.ride
+  stats:
+    description: "Shows a player's stats on the server"
+    permission: ec.command.stats
+  topkills:
+    description: "Shows the top killers"
+    permission: ec.command.topkills
+  setcrate:
+    description: "Defines a crate by its position"
+    permission: ec.command.setcrate
+  xray: 
+    description: "Toggle xray ore blocks display"
+    permission: ec.command.xray
+  seeinv:
+    description: "See other player's inventory"
+    permission: ec.command.seeinv
+  sortinv:
+    description: "Sort your inventory items"
+    permission: ec.command.sortinv
+  trade:
+    description: "Trade items & coins"
+    permission: ec.command.trade
+  booster:
+    description: "Use boosters"
+    permission: ec.command.booster
+  givetpc:
+    description: "Give TPCompass to a player"
+    permission: ec.command.givetpc
+  pv:
+    description: "Use private vaults"
+    permission: ec.command.pv
+
+permissions:
+  ec.command.expstats:
+    default: true
+  ec.command.redeemexp:
+    default: true
+  ec.command.setspawn:
+    default: op
+  ec.command.setwarzone:
+    default: op
+  ec.command.fx:
+    default: op
+  ec.command.vote:
+    default: true
+  ec.command.checkbounty:
+    default: true
+  ec.command.addbounty:
+    default: true
+  ec.command.backup:
+    default: op
+  ec.command.restore:
+    default: op
+  ec.command.ride:
+    default: op
+  ec.command.stats:
+    default: true
+  ec.command.topkills:
+    default: true
+  ec.command.setcrate:
+    default: op
+  ec.command.xray:
+    default: op
+  ec.command.seeinv:
+    default: op
+  ec.command.sortinv:
+    default: op
+  ec.command.trade:
+    default: true
+  ec.command.booster:
+    default: true
+  ec.command.givetpc:
+    default: op
+  ec.command.pv:
+    default: op
+  ec.inventorysize.100:
+    default: false
+  ec.inventorysize.250:
+    default: false
+  ec.inventorysize.500:
+    default: false
+  ec.inventorysize.1000:
+    default: false
+  ec.limitations.gamemode:
+    default: op
+  ec.limitations.build:
+    default: op

@@ -1,0 +1,104 @@
+# WorldLoader module
+# Worlds that should be loaded when the plugin is enabled
+worlds-load-on-enable:
+- "world"
+
+# World Backup module
+# Choose whether to backup worlds when the plugin has been enabled
+backup-on-enable: false
+
+# AntiAbusiveEnchantments module
+max-enchantment-level: 5
+
+# Bounties module
+max-bounty-price: 100000
+
+# Spawn protection module (/setspawn)
+spawnX1: 0
+spawnZ1: 0
+spawnX2: 0
+spawnZ2: 0
+# The spawn's world
+spawnLevel: ""
+
+# Warzone protection module (/setwarzone)
+warzoneX1: 0
+warzoneZ1: 0
+warzoneX2: 0
+warzoneZ2: 0
+# The warzone's world
+warzoneLevel: ""
+
+# ItemBlocker module
+# Prevents the items listed here to be used
+# or activated at the spawn and warzone
+# You can also put the item's names here
+blocked-items:
+- "tnt"
+- "flint_steel"
+- "bucket"
+
+# DropParty module
+drop-party:
+  enabled: false
+  x: 0
+  y: 0
+  z: 0
+  level: ""
+  # The max item count for the random dropping items
+  max-count: 10
+  # How long a DropParty will last in seconds
+  duration: 300
+  # How long a DropParty will start in seconds
+  starts-in: 1500
+  items:
+  - 1
+  - 5
+  - 12
+  - 20
+  - 45
+  - 48
+  - 366
+  - 354
+  - 294
+  - 297
+  - 282
+  - 260
+  - 266
+  - 350
+  - 364
+  - 396
+  - 424
+  - 436
+  - 345
+  - 265
+
+# MobSpawners module
+spawners:
+  - "1, 32, §b§lZombie§r§b Spawner, 32000"
+  - "2, 33, §b§lCreeper§r§b Spawner, 33000"
+  - "3, 34, §b§lSkeleton§r§b Spawner, 34000"
+  - "4, 35, §b§lSpider§r§b Spawner, 35000"
+  - "5, 36, §b§lZombie Pigman§r§b Spawner, 36000"
+  - "6, 37, §b§lSlime§r§b Spawner, 37000"
+  - "7, 38, §b§lEnderman§r§b Spawner, 38000"
+  - "8, 39, §b§lSliverfish§r§b Spawner, 39000"
+  - "9, 40, §b§lCave Spider§r§b Spawner, 40000"
+  - "10, 41, §b§lGhast§r§b Spawner, 41000"
+  - "11, 42, §b§lMagma Cube§r§b Spawner, 42000"
+  - "12, 43, §b§lBlaze§r§b Spawner, 43000"
+  - "13, 44, §b§lZombie Villager§r§b Spawner, 44000"
+  - "14, 45, §b§lWitch§r§b Spawner, 45000"
+  - "15, 46, §b§lStray§r§b Spawner, 46000"
+  - "16, 47, §b§lHusk§r§b Spawner, 47000"
+  - "17, 48, §b§lWither Skeleton§r§b Spawner, 48000"
+  - "18, 10, §b§l§lChicken§r§b Spawner, 10000"
+  - "19, 11, §b§lCow§r§b Spawner, 11000"
+  - "20, 12, §b§lPig§r§b Spawner, 12000"
+  - "21, 13, §b§lSheep§r§b Spawner, 13000"
+  - "22, 14, §b§lWolf§r§b Spawner, 14000"
+  - "23, 16, §b§lMooshroom§r§b Spawner, 16000"
+  - "23, 17, §b§lSquid§r§b Spawner, 17000"
+  - "23, 18, §b§lRabit§r§b Spawner, 23000"
+  - "23, 22, §b§lOcelot§r§b Spawner, 22000"
+  - "24, 20, §b§lIron Golem§r§b Spawner, 20000"

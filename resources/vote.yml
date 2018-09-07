@@ -1,0 +1,23 @@
+---
+message: |-
+  §7*
+  §7* §9{player}§r voted with §6/vote and got
+  §7* §r§6food, diamonds, armor and more!
+  §7*
+items:
+- '19:0:10'
+- '79:0:8'
+- '155:0:128'
+- '265:0:10'
+- '57:0:3'
+- '388:0:4'
+- '373:11:6'
+- '373:33:6'
+- '384:0:8'
+commands:
+- givemoney {player} 5000
+- give {player} diamond_sword 1 {ench:[{id:9s,lvl:3s}]}
+- give {player} diamond_pickaxe 1 {ench:[{id:15s,lvl:3s}]}
+- setuperm {player} essentials.colorchat
+- give {player} diamond_sword:105 1 {display:{Name:'§0§lWraith §r§a(Tap to Enchant)'}}
+...
